@@ -14,11 +14,11 @@ document.querySelectorAll("img")[1].setAttribute("src",src1);
 
 if(ran1 > ran2)
 {
-    document.querySelector("h1").innerHTML = "Player 1 wins";
+    document.querySelector("h1").innerHTML = "🚩 Player 1 wins";
 }
 else if(ran1 < ran2)
 {
-    document.querySelector("h1").innerHTML = "Player 2 wins";
+    document.querySelector("h1").innerHTML = "Player 2 wins 🚩";
 }
 else
 {
