@@ -1,1 +1,1 @@
-<a href="https://siddhant2002.github.io/Dice-Game/">Click here to redirect to dice game page</a>
+<a href="https://siddhant2002dicegame.netlify.app/">Click here to redirect to dice game page</a>
