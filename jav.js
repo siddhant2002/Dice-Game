@@ -1,6 +1,6 @@
-var nm = prompt("Enter Your Name");
+// var nm = prompt("Enter Your Name");
 
-document.querySelector("h1").innerHTML = "Helio "+nm+" Welcome to Dice Game. Refresh Me!!!";
+// document.querySelector("h1").innerHTML = "Helio "+nm+" Welcome to Dice Game. Refresh Me!!!";
 
 var ran1 = Math.floor(Math.random() * 6) + 1;
 var img = "dice"+ran1+".png";
