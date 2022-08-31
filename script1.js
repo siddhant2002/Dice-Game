@@ -1,4 +1,4 @@
-document.getElementById("para").innerHTML=localStorage.getItem("name-item");
+document.getElementById("para").innerHTML = localStorage.getItem("name-item");
 var count = 0;
 var count1 = 0;
 
@@ -18,10 +18,10 @@ function dotask1() {
   } else if (ran1 < ran2) {
     count1++;
   }
-  console.log(count+" "+count1);
+  console.log(count + " " + count1);
 }
 function dotask2() {
-  var sco=count+"+"+count1;
-  localStorage.setItem("score",sco);
-  location.href = 'third.html';
+  var sco = count + "+" + count1;
+  localStorage.setItem("score", sco);
+  location.href = "third.html";
 }
