@@ -1,6 +1,6 @@
 document.getElementById("para").innerHTML=localStorage.getItem("name-item");
-var count;
-var count1;
+var count = 0;
+var count1 = 0;
 
 function dotask1() {
   var ran1 = Math.floor(Math.random() * 6) + 1;
@@ -18,6 +18,7 @@ function dotask1() {
   } else if (ran1 < ran2) {
     count1++;
   }
+  console.log(count+" "+count1);
 }
 function dotask2() {
   var sco=count+"+"+count1;
