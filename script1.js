@@ -1,8 +1,10 @@
 document.getElementById("para").innerHTML = localStorage.getItem("name-item");
 var count = 0;
 var count1 = 0;
-
+var chop = 1;
 function dotask1() {
+  document.querySelector("h1").innerHTML="Round "+chop;
+  chop++;
   var ran1 = Math.floor(Math.random() * 6) + 1;
   var img = "dice" + ran1 + ".png";
   var src = "/images/" + img;

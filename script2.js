@@ -8,3 +8,6 @@ if (count < count1) {
 } else {
   document.querySelector("h1").innerHTML = "Draw!!!";
 }
+function dotask() {
+    location.href='index.html';
+}
