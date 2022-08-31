@@ -1,0 +1,13 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+h1
+{
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    margin: auto;
+}

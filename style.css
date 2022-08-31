@@ -1,33 +1,47 @@
-h1 {
-    margin: 30px;
-    text-shadow: 2px 0px;
+p
+{
+    margin: 50px;
     font-family: 'Recursive', sans-serif;
-    font-size: 3rem;
+    font-size: 40px;
 }
-
 .container {
-    width: 70%;
-    margin: auto;
-    text-align: center;
+    display: flex;
+    justify-content:space-around
 }
 
 img {
-    height: 250px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    height: 260px;
 }
 
 p {
     font-size: 2rem;
 }
-
-.mid-container {
-    display: inline-block;
-    text-align: center;
-    font-family: 'Baloo Bhai 2', cursive;
+#para
+{
+    padding-left: 200px;
 }
-
+.mid-container img
+{
+    padding-left: 200px;
+}
+.mid-container1 img
+{
+    padding-right: 200px;
+}
+.cont
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.btn1
+{
+    font-size: 17px;
+}
+.btn2
+{
+    font-size: 17px;
+}
 body {
     background-color: antiquewhite;
 }
@@ -35,4 +49,5 @@ body {
 footer {
     text-align: center;
     font-family: 'Baloo Bhaijaan 2', cursive;
+    padding-top: 100px;
 }
