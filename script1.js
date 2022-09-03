@@ -1,8 +1,17 @@
+var audio = new Audio("sounds/ludo.mp3");
+audio.loop=true;
+audio.play();
 document.getElementById("para").innerHTML = localStorage.getItem("name-item");
 var count = 0;
 var count1 = 0;
 var chop = 1;
 function dotask1() {
+  if(chop == 1)
+  {
+    audio.pause();
+  }
+  var play1 = new Audio("sounds/roll.mp3");
+  play1.play();
   document.querySelector("h1").innerHTML="Round "+chop;
   chop++;
   var ran1 = Math.floor(Math.random() * 6) + 1;
