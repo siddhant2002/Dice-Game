@@ -41,4 +41,8 @@ while (loop > 0) {
     location.href = "third.html";
   }
   loop--;
+  if(loop == 0)
+  {
+    dotask2();
+  }
 }
