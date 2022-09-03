@@ -2,7 +2,7 @@ var audio = new Audio("sounds/ludo.mp3");
 audio.loop = true;
 audio.play();
 var l = prompt("Enter Number of rounds you want to play");
-var val = parseInt(l);
+var val = parseInt(l,10);
 while (val > 0) {
   document.querySelectorAll("td")[0].innerHTML =
     localStorage.getItem("name-item");
