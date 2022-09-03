@@ -7,6 +7,10 @@ var count = 0;
 var count1 = 0;
 var chop = 1;
 function dotask1() {
+  if(chop == 1)
+  {
+    audio.pause();
+  }
   var play1 = new Audio("sounds/roll.mp3");
   play1.play();
   document.querySelector("h1").innerHTML="Round "+chop;
