@@ -1,9 +1,6 @@
 var audio = new Audio("sounds/ludo.mp3");
 audio.loop = true;
 audio.play();
-var l = prompt("Enter Number of rounds you want to play");
-var val = parseInt(l,10);
-while (val > 0) {
   document.querySelectorAll("td")[0].innerHTML =
     localStorage.getItem("name-item");
   document.getElementById("para").innerHTML = localStorage.getItem("name-item");
@@ -35,15 +32,14 @@ while (val > 0) {
     document.querySelectorAll("td")[1].innerHTML = count;
     document.querySelectorAll("td")[3].innerHTML = count1;
     console.log(count + " " + count1);
+    val = val - 1;
+    if(val == 0)
+    {
+      dotask2();
+    }
   }
   function dotask2() {
     var sco = count + "+" + count1;
     localStorage.setItem("score", sco);
     location.href = "third.html";
   }
-  val = val - 1;
-  if(val === 0)
-  {
-    dotask2();
-  }
-}
