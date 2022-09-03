@@ -3,9 +3,19 @@ body {
   padding: 0px;
   background-color: antiquewhite;
 }
-h1 {
-  font-size: 30px;
+.container {
+  font-family: "Baloo Bhaijaan 2", cursive;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: auto;
+}
+.btn
+{
+  border-radius: 15px;
+}
+.btn:hover
+{
+  font-weight: bold;
+  background-color: grey;
+  color: white;
 }
