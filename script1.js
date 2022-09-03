@@ -41,8 +41,8 @@ while (val > 0) {
     localStorage.setItem("score", sco);
     location.href = "third.html";
   }
-  val-=1;
-  if(val == 0)
+  val = val - 1;
+  if(val === 0)
   {
     dotask2();
   }
