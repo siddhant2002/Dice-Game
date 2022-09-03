@@ -32,14 +32,12 @@ audio.play();
     document.querySelectorAll("td")[1].innerHTML = count;
     document.querySelectorAll("td")[3].innerHTML = count1;
     console.log(count + " " + count1);
-    val = val - 1;
-    if(val == 0)
-    {
-      dotask2();
-    }
   }
   function dotask2() {
     var sco = count + "+" + count1;
     localStorage.setItem("score", sco);
     location.href = "third.html";
+  }
+  function dotask3() {
+    audio.pause();
   }
