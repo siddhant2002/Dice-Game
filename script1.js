@@ -42,7 +42,7 @@ while (val > 0) {
     location.href = "third.html";
   }
   val--;
-  if(val === 0)
+  if(val == 0)
   {
     dotask2();
   }
