@@ -5,13 +5,13 @@ body {
 }
 .container {
   font-family: "Baloo Bhaijaan 2", cursive;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 .btn
 {
   border-radius: 15px;
+  text-align: center;
+  text-decoration:solid;
 }
 .btn:hover
 {
