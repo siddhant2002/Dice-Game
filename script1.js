@@ -1,7 +1,7 @@
 var audio = new Audio("sounds/ludo.mp3");
 audio.loop = true;
 audio.play();
-var loop = prompt("Enter Number of rounds you want to play");
+var loop = parseInt(prompt("Enter Number of rounds you want to play"));
 while (loop > 0) {
   document.querySelectorAll("td")[0].innerHTML =
     localStorage.getItem("name-item");
@@ -41,7 +41,7 @@ while (loop > 0) {
     location.href = "third.html";
   }
   loop--;
-  if(loop == 0)
+  if(loop === 0)
   {
     dotask2();
   }
